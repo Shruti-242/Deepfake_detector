@@ -1,0 +1,64 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.upload-section {
+    margin-bottom: 20px;
+}
+
+.upload-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.upload-button:hover {
+    background-color: #0056b3;
+}
+
+#fileInput {
+    display: none; /* Hide the default file input */
+}
+
+.prediction-section, .confidence-section {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.prediction-section h2, .confidence-section h2 {
+    color: #555;
+    margin-top: 0;
+}
+
+#prediction-result, #confidence-level {
+    font-weight: bold;
+    color: #28a745; /* Example color for a positive prediction */
+}
+
+.output-display {
+    margin-top: 20px;
+    /* Add styling for image/video display if needed */
+}

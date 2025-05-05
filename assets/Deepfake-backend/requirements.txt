@@ -1,0 +1,5 @@
+Flask
+Pillow  # For image processing
+opencv-python # For video processing (optional, depending on your model)
+torch       # Or TensorFlow, depending on your deepfake detection model
+torchvision # If using PyTorch for image/video tasks

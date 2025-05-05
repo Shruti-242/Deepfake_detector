@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepfake Detector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Deepfake Detector</h1>
+        <p class="description">This is a simple deepfake detector that allows you to upload an image or video to analyze whether it might be a manipulated or synthetic media (a "deepfake").<br><br>Deepfake detection algorithms analyze various features within the media to identify inconsistencies or artificial patterns that are often introduced during the deepfake creation process.<br><br> To use this detector, simply click the "Choose File" button, select the image or video file you want to analyze, and the system will process it and display the prediction and its confidence level below.</p>
+        <div class="upload-section">
+        <div class="upload-section">
+            <input type="file" id="fileInput" accept="image/*, video/*">
+            <label for="fileInput" class="upload-button">Choose File</label>
+        </div>
+        <div class="prediction-section">
+            <h2>Prediction:</h2>
+            <p id="prediction-result">Awaiting file upload...</p>
+        </div>
+        <div class="confidence-section">
+            <h2>Confidence:</h2>
+            <p id="confidence-level">--</p>
+        </div>
+        <div class="output-display">
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
